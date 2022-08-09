@@ -36,10 +36,10 @@ publishing {
     repositories {
         maven {
             name = "Gradglass"
-            url = uri("https://maven.pkg.github.com/Progna99/Gradglass")
+            url = uri("https://maven.pkg.github.com/Progna99/Glassgrad")
             credentials {
                 username ="Progna99"
-                password ="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"
+                password ="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"
             }    
         }
     }
