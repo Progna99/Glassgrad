@@ -35,11 +35,11 @@ githubProperties.load(new FileInputStream(rootProject.file("github.properties"))
 publishing { 
     repositories {
         maven {
-            name = "Glassgrad"
-            url = uri("https://maven.pkg.github.com/Progna99/Glassgrad")
+            name = "Gradglass"
+            url = uri("https://maven.pkg.github.com/Progna99/Gradglass")
             credentials {
-                username = githubProperties['gpr.usr']
-                password = githubProperties['gpr.key']
+                username ="Progna99"
+                password ="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"
             }    
         }
     }
@@ -48,8 +48,8 @@ publishing {
     
         gpr(MavenPublication) {
             from(components.java)
-            groupId 'com.sample'
-            artifactId 'glassgrad'
+            //groupId 'com.sample'
+            //artifactId 'glassgrad'
             version 1.0
             /*
             pom.withXml {
